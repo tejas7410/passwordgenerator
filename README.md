@@ -3,6 +3,7 @@
 A modern and responsive **Random Password Generator** built with **React + Vite** and styled using **Tailwind CSS**.
 
 This app allows users to:
+
 - Generate secure random passwords in a specified **length range (8–20 characters)**.
 - Optionally include **numbers** and **special characters**.
 - Copy the generated password to the clipboard with a single click.
@@ -13,11 +14,12 @@ This app allows users to:
 
 ✅ Adjustable password length  
 ✅ Toggle inclusion of:
+
 - Numbers (e.g., 0–9)
-- Special characters (e.g., !@#$%^&*)  
-✅ One-click **Copy to Clipboard**  
-✅ Fully responsive design  
-✅ Built with **React + Tailwind CSS** using Vite for fast development
+- Special characters (e.g., !@#$%^&\*)  
+  ✅ One-click **Copy to Clipboard**  
+  ✅ Fully responsive design  
+  ✅ Built with **React + Tailwind CSS** using Vite for fast development
 
 ---
 
@@ -26,7 +28,7 @@ This app allows users to:
 > Add a screenshot of your app UI here:  
 > Save your screenshot as `screenshot.png` in the root folder and it will show up below.
 
-![App Screenshot](./screenshot.png)
+![App Screenshot](./public/image.png)
 
 ---
 
@@ -53,3 +55,4 @@ npm install
 
 # Start the development server
 npm run dev
+```
