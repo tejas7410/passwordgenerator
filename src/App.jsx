@@ -30,22 +30,22 @@ function App() {
 
   return (
     <>
-      <div className="w-screen h-screen bg-gray-700">
-        <div className='pt-25 text-3xl text-center text-white'>Random Password Generator</div>
-        <div className='w-1/2 py-10 m-auto mt-5 border-2 border-white'>
+      <div className="w-screen h-screen bg-gray-900">
+        <div className='pt-25 text-5xl text-center text-white mb-10'>Random Password Generator</div>
+        <div className='w-1/2 py-10 m-auto mt-5 border-4 border-white text-white/70 rounded-4xl'>
 
-          <div className=" flex gap-6 mb-4 overflow-hidden text-white rounded-lg shadow">
+          <div className=" flex gap-6 mb-4 overflow-hidden  rounded-lg shadow p-6">
             <input
               type='text'
               value={password}
-              className='border-6 rounded-1xl text-medium te xt-2xl w-full px-3 py-1 ml-2 text-black bg-white border-white'
+              className='border-6 rounded-4xl text-medium text-2xl w-full px-3 py-1 ml-2 text-black bg-white/90 border-white/90'
               placeholder="Password"
               readOnly
               ref={passref}
             />
-            <button onClick={copypasstoclipboard} className='rounded-3xl shrink-0 px-6 mr-3 text-2xl border-2'>Copy</button>
+            <button onClick={copypasstoclipboard} className='rounded-4xl shrink-0 px-6 mr-3 text-2xl border-2'>Copy</button>
           </div>
-          <div className=' flex flex-wrap gap-4 ml-5 mr-5 text-2xl text-white'>
+          <div className=' flex flex-wrap gap-4 ml-5 mr-5 text-2xl  p-4'>
             <div className='flex gap-2'>
 
               <input
